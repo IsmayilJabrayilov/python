@@ -1,0 +1,12 @@
+tip=int(input("Enter tips: "))
+
+if tip ==15:
+    print("Standart")
+elif tip == 18:
+    print("Good")
+elif tip == 20:
+    print("Great")
+elif tip >20:
+    print ("my hero")
+else:
+    print("Wrong number")
